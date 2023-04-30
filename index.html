@@ -1,25 +1,80 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Murali Jetti</title>
+	<title>Murali Jetti - Under Construction</title>
 	<style>
 		body {
-			background-color: white;
+			background-color: #f2f2f2;
 			font-family: Arial, sans-serif;
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: stretch;
+			height: 100vh;
+			margin: 0;
+			padding: 0;
+		}
+		#menu {
+			background-color: #333;
+			color: #fff;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			width: 70px;
+			padding-top: 50px;
+			position: fixed;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			z-index: 1;
+			overflow-y: scroll;
+		}
+		#menu a {
+			color: #fff;
+			text-decoration: none;
+			margin: 10px 0;
+			font-size: 16px;
 			text-align: center;
+			padding: 10px;
+			border-radius: 5px;
+			transition: all 0.2s ease-in-out;
+		}
+		#menu a:hover {
+			background-color: #fff;
+			color: #333;
+		}
+		#menu a.active {
+			background-color: #fff;
+			color: #333;
+		}
+		#content {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			flex: 1;
+			z-index: 0;
 		}
 		h1 {
-			font-size: 24px;
+			font-size: 36px;
 			color: #333;
-			margin: 20px 0 0 20px;
-			position: absolute;
-			top: 0;
-			left: 0;
+			margin-bottom: 30px;
+		}
+		p {
+			font-size: 24px;
+			color: #666;
 		}
 	</style>
 </head>
 <body>
-	<h1>Murali Jetti</h1>
-	<p>Under Construction</p>
+	<div id="menu">
+		<a href="#" class="active">About</a>
+		<a href="#">Work</a>
+	</div>
+	<div id="content">
+		<h1>Murali Jetti</h1>
+		<p>Under Construction</p>
+	</div>
 </body>
 </html>
