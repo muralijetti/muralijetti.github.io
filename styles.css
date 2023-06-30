@@ -10,6 +10,11 @@ nav {
     background-color: white;
 }
 
+#profile-picture {
+    max-width: 20%;
+    height: auto;
+  }
+
 #home-page,#about-page {
     text-align: center;
 }
