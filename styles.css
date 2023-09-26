@@ -1,29 +1,4 @@
-a {
-    color: black;
-}
-
-li {
-    list-style-type: none;
-}
-
-nav {
-    background-color: white;
-}
-
-#profile-picture {
-    max-width: 20%;
-    height: auto;
-}
-
-#home-page,#about-page {
-    text-align: center;
-}
-
-.center {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 40px;
-    color: black;
+#content
+{
+	max-width:42em;margin:15 auto;
 }
